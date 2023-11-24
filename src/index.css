@@ -18,6 +18,7 @@ code {
 
 body {
   font-family: "Exo", sans-serif;
+  background-color: var(--main-color);
 }
 
 h1 {
@@ -51,7 +52,8 @@ h3 {
 }
 
 :root {
-  --main-color: #0b1067;
+  --main-color: #0b6758;
   --sec-color: #f0f097;
   --third-color: #f46703;
+  --fourth-color: rgb(255, 0, 234);
 }

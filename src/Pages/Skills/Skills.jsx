@@ -3,7 +3,7 @@ import BubbleIcons from "../../Components/BubbleIcons/BubbleIcons";
 
 function Skills() {
   return (
-    <section className="skills-container">
+    <section id="skills" className="skills-container">
       <h3>Compétences</h3>
       <BubbleIcons />
     </section>
