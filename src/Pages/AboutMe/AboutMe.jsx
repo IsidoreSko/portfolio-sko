@@ -1,12 +1,10 @@
 import "./aboutMe.css";
-import { useParallax } from "react-scroll-parallax";
 
 function AboutMe() {
-  const parallax = useParallax({ scale: [0.05, 2.3] });
   return (
-    <section id="about-me">
+    <section id="aboutMe">
       <h3>Qui suis-je?</h3>
-      <div ref={parallax.ref} className="to-present">
+      <div className="to-present">
         <p>
           "Animé par la passion pour les technologies d'avenir, j'ai entrepris
           une reconversion professionnelle dans le secteur dynamique du

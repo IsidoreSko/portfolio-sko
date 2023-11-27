@@ -70,7 +70,7 @@ const bubblesData = [
 ];
 
 function BubbleIcons() {
-  const parallax = useParallax({ scale: [0, 1.5] });
+  const parallax = useParallax({ scale: [0, 1] });
 
   return (
     <>

@@ -1,5 +1,4 @@
-#about-me {
-  height: 32rem;
+#aboutMe {
   padding: 60px;
   display: flex;
   flex-direction: column;
@@ -12,20 +11,16 @@ h3 {
 .to-present {
   margin-left: auto;
   margin-right: auto;
-  width: 43rem;
+  width: 90%;
   border: 4mm ridge var(--third-color);
-  /* border: 4mm ridge rgba(244, 103, 3, 0.6); */
-  /* border: 2px solid var(--third-color); */
   margin-top: 3.4rem;
   margin-bottom: 1.8rem;
-  /* box-shadow: 9px 9px 1px 1px var(--third-color); */
   text-align: justify;
 }
 
 .to-present p {
   margin: 0.5rem;
-  font-family: Brush Script MT, Brush Script Std, cursive;
-  color: var(--third-color);
+  color: var(--sec-color);
   font-size: 1.6rem;
   font-weight: 300;
 }

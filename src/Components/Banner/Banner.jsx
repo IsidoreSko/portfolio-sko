@@ -11,7 +11,7 @@ function Banner() {
         </div>
       </div>
 
-      <div className="blink">
+      <div className="blink-banner">
         <span>Scroll</span>
         <ArrowDownwardIcon
           style={{ fontSize: "4rem", marginBottom: "-1rem" }}

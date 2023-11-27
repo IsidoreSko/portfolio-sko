@@ -1,9 +1,5 @@
 .skills-container {
-  height: 20rem;
-  /* width: 100%; */
-  padding: 50px;
   display: flex;
   flex-direction: column;
-  padding-top: 23rem;
   padding-bottom: 5rem;
 }

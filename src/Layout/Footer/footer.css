@@ -6,9 +6,6 @@
   color: var(--third-color);
   -webkit-text-stroke: 0.5px var(--sec-color);
   height: 4rem;
-  /* background-image: url("../../Assets/Images/sky4.avif"); */
-  /* background: transparent; */
-  /* background-color: #5dfbeb; */
 }
 
 .copyright {

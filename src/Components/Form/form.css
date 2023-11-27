@@ -1,0 +1,28 @@
+.submit {
+  color: var(--third-color);
+}
+
+.blink-contact {
+  animation-duration: 7s;
+  animation-name: clignoter;
+  animation-iteration-count: infinite;
+  transition: none;
+}
+
+@keyframes clignoter {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -10,10 +10,6 @@
   border-radius: 50%;
 }
 
-/* .name {
-  display: none;
-} */
-
 .name {
   display: flex;
   color: var(--sec-color);
@@ -22,17 +18,6 @@
   margin-top: 0.5rem;
   max-width: 8rem;
 }
-
-/* .skills-container ul {
-  width: 100%;
-  height: 150px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-top: 3rem;
-} */
 
 ul {
   width: 100%;

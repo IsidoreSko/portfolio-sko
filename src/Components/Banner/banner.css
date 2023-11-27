@@ -1,15 +1,13 @@
 .banner {
   text-align: center;
+  position: relative;
+  z-index: 1;
   /* background: linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%); */
   color: var(--third-color);
-  /* color: black; */
   -webkit-text-stroke: 2px black;
   background-image: url("../../Assets/Images/pictures/book4.avif");
   object-fit: cover;
-  /* background-repeat: no-repeat; */
   font-family: "Roboto";
-  /* font-weight: 300;
-  font-size: 32px; */
   padding-top: 40vh;
   height: 100vh;
   overflow: hidden;
@@ -23,9 +21,7 @@ transform: translate3d(0, 0, 0); */
 
 .port-folio {
   display: inline-block;
-  /* overflow: hidden; */
   white-space: nowrap;
-  /* width: 100%; */
 }
 
 .font {
@@ -36,14 +32,10 @@ transform: translate3d(0, 0, 0); */
 span {
   font-size: 3rem;
   font-weight: 600;
-  /* display: inline-block; */
-  /* width: 9000px; */
-  /* width: 100%; */
 }
 
 .port-folio:first-of-type {
   animation: showup 7s infinite;
-  /* width: 500px; */
 }
 
 .port-folio:last-of-type {
@@ -54,9 +46,6 @@ span {
 .port-folio:last-of-type span {
   margin-left: -355px;
   animation: slidein 7s infinite;
-  /* width: -1000px; */
-  /* display: inline-block; */
-  /* overflow: visible; */
 }
 
 @keyframes showup {
@@ -111,16 +100,15 @@ span {
 }
 
 /* Pour la flêche et le mot "scroll": */
-.blink {
+.blink-banner {
   animation-duration: 2s;
-  animation-name: clignoter;
+  animation-name: clignote;
   animation-iteration-count: infinite;
   transition: none;
   padding-top: 14rem;
-  /* font-size: 5rem; */
 }
 
-@keyframes clignoter {
+@keyframes clignote {
   0% {
     opacity: 1;
   }
