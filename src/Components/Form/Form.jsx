@@ -39,7 +39,7 @@ export default function ContactForm() {
                       src={Contact}
                       alt="Contact"
                       style={{
-                        width: "30rem",
+                        width: "21rem",
                       }}
                     />
                   </Box>

@@ -17,7 +17,7 @@ code {
 }
 
 body {
-  font-family: "Exo", sans-serif;
+  /* font-family: "Snell Roundhand", cursive, sans-serif; */
   background-color: var(--main-color);
 }
 
@@ -44,16 +44,16 @@ h2 {
 h3 {
   margin-left: auto;
   margin-right: auto;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 1200;
-  color: var(--third-color);
-  -webkit-text-stroke: 2px var(--sec-color);
+  color: var(--sec-color);
+  /* -webkit-text-stroke: 2px var(--third-color); */
   margin-top: 2.3rem;
 }
 
 :root {
-  --main-color: #0b6758;
-  --sec-color: #f0f097;
-  --third-color: #f46703;
+  --main-color: rgb(27, 25, 25);
+  --sec-color: white;
+  /* --third-color: #0f03f4; */
   --fourth-color: rgb(255, 0, 234);
 }

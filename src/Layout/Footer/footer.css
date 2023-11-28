@@ -3,14 +3,14 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  color: var(--third-color);
-  -webkit-text-stroke: 0.5px var(--sec-color);
-  height: 4rem;
+  color: var(--sec-color);
+  /* -webkit-text-stroke: 0.5px var(--sec-color); */
+  height: 5rem;
 }
 
 .copyright {
-  color: var(--third-color);
-  -webkit-text-stroke: 0.5px var(--sec-color);
+  color: var(--sec-color);
+  /* -webkit-text-stroke: 0.5px var(--sec-color); */
   font-size: 1rem;
   font-weight: 600;
 }
