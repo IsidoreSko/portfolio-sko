@@ -2,25 +2,30 @@
   padding: 60px;
   display: flex;
   flex-direction: column;
+  /* background-color: var(--sec-color); */
 }
 
-h3 {
+#aboutMe h3 {
   align-items: center;
+  /* color: var(--main-color); */
 }
 
 .to-present {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
-  border: 4mm ridge var(--third-color);
+  border-radius: 25px;
+  border: 4mm ridge var(--main-color);
   margin-top: 3.4rem;
   margin-bottom: 1.8rem;
   text-align: justify;
+  background-color: var(--fifth-color);
+  /* color: var(--main-color); */
 }
 
 .to-present p {
   margin: 0.5rem;
-  color: var(--sec-color);
+  color: var(--main-color);
   font-size: 1.6rem;
   font-weight: 300;
 }

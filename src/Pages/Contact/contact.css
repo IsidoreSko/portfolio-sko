@@ -3,6 +3,10 @@
   flex-direction: column;
 }
 
+#contact h3 {
+  margin-bottom: 3rem;
+}
+
 .contact-container {
   display: flex;
   flex-direction: column;

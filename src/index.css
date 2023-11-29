@@ -54,6 +54,7 @@ h3 {
 :root {
   --main-color: rgb(27, 25, 25);
   --sec-color: white;
-  /* --third-color: #0f03f4; */
+  --third-color: #0f03f4;
   --fourth-color: rgb(255, 0, 234);
+  --fifth-color: rgb(222, 214, 214);
 }

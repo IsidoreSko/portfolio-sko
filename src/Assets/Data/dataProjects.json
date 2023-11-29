@@ -1,0 +1,97 @@
+[
+    {
+      "id": "1",
+      "cover":"/Images/projectPics/argentBank.webp",
+      "images": [
+        "/Images/projectPics/argentBank1.PNG",
+        "/Images/projectPics/argentBank2.PNG",
+        "/Images/projectPics/argentBank3.PNG"
+      ],
+      "title": "ArgentBank",
+      "description": "site qui permettre de fournir une plateforme réactive et sécurisée permettant aux utilisateurs de gérer leur authentification, d'accéder à leur profil, et éventuellement de gérer leurs transactions financières.",
+      "link": " Github",
+      "lien" : "https://github.com/IsidoreSko/ArgentBank-frontend",
+      "site" : "",
+      "languages": ["React", "Redux"]
+      
+    },
+    {
+      "id": "2",
+      "cover":"/Images/projectPics/ohMyFood.webp",
+      "images": [
+        "/Images/projectPics/ohMyFood1.PNG",
+        "/Images/projectPics/ohMyFood2.PNG",
+        "/Images/projectPics/ohMyFood2.PNG"
+      ],
+      "title": "Ohmyfood",
+      "description": "Création d'un site répertoriant les menus de restaurants gastronomiques à Paris. Le site permet aux clients de composer leur propre menu et de réserver leur repas",
+      "link": "View In Github",
+      "lien" : "https://github.com/IsidoreSko/OhMyFood",
+      "site" : " https://isidoresko.github.io/OhMyFood/",
+      "languages": ["HTML", "CSS"]
+    },
+    {
+      "id": "3",
+      "cover":"/Images/projectPics/kasa.webp",
+      "images": [ 
+        "/Images/projectPics/kasa1.PNG",       
+        "/Images/projectPics/kasa2.PNG",
+        "/Images/projectPics/kasa3.PNG"
+      ],
+      "title": "Kasa",
+      "description": " Le site web de Kasa est une plateforme conviviale permettant de rechercher et de réserver des hébergements entre particuliers, tels que des appartements.",
+      "link": "View In Github",
+      "lien" : "https://github.com/IsidoreSko/Kasa",
+      "site" : "",
+      "languages": ["SASS", "React"]
+     
+    },
+    {
+      "id": "4",
+      "cover":"/Images/projectPics/booki.webp",
+      "images": [
+        "/Images/projectPics/booki1.webp",
+        "/Images/projectPics/booki2.webp"
+      ],
+      "title": "Booki",
+      "description": "Un site permettant aux usagers de trouver des hébergements et des activités dans leur ville de choix.Transformer les maquettes desktop,tablette et mobile en code HTML et CSS",
+      "link": "View In Github",
+      "lien" : "",
+      "site" : "",
+      "languages": ["HTML", "CSS"]
+   
+    },
+    {
+      "id": "5",
+      "cover":"/Images/projectPics/nina.webp",
+      "images": [
+        "/Images/projectPics/nina1.PNG",
+        "/Images/projectPics/2.PNG",
+        "/Images/projectPics/nina3.PNG"
+      ],
+      "title": "Nina Carducci",
+      "description": "Améliorer le référencement du site, en augmentant sa visibilité auprès des clients potentiels.La fourniture du code est optimisé avec un rapport de performance pour démontrer les résultats.",
+      "link": "View In Github",
+      "lien" : "https://github.com/IsidoreSko/ninacarducci.github.io",
+      "site" : " https://isidoresko.github.io/ninacarducci.github.io/",
+      "languages": ["Optimisez le SEO"]
+    },
+   
+    {
+      "id": "6",
+      "cover": "/Images/projectPics/printIt.webp",
+      "images": [ 
+        "/Images/projectPics/printIt1.PNG",
+        "/Images/projectPics/t.PNG",
+        "/Images/projectPics/printIt3.PNG"     
+      ],
+      "title": "Print-it",
+      "description": "",
+      "link": "View In Github",
+      "lien" : "https://github.com/IsidoreSko/Print-it-JS",
+      "site" : "https://isidoresko.github.io/Print-it-JS/",
+      "languages": ["React"]
+    }
+  ]
+
+

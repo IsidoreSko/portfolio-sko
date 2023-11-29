@@ -1,0 +1,38 @@
+[
+    {
+      "id": "a1",
+      "image": "/Images/icons/redux.jpg",
+      "description": "Redux icon",
+      "name": "Redux"
+    },
+    {
+      "id": "a2",
+      "image": "/Images/icons/react.jpg",
+      "description": "React icon",
+      "name": "React"
+    },
+    {
+      "id": "a3",
+      "image": "/Images/icons/css.png",
+      "description": "Css icon",
+      "name": "CSS"
+    },
+    {
+      "id": "a4",
+      "image": "/Images/icons/html.png",
+      "description": "Html icon",
+      "name" :"HTML"
+    },
+    {
+      "id": "a5",
+      "image": "/Images/icons/js.png",
+      "description": "Js icon",
+      "name": "JavaScript"
+    },
+    {
+      "id": "a6",
+      "image": "/Images/icons/sass.jpg",
+     " description": "Sass icon",
+      "name": "Sass"
+    }
+  ]

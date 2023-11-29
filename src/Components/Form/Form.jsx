@@ -3,7 +3,7 @@ import "./form.css";
 import { useState } from "react";
 import { TextField, Button, Grid, Box } from "@mui/material";
 
-import Contact from "../../Assets/Images/pictures/contact.png";
+import Contact from "../../Assets/pictures/contact.png";
 
 export default function ContactForm() {
   const [name, setName] = useState("");
@@ -39,7 +39,7 @@ export default function ContactForm() {
                       src={Contact}
                       alt="Contact"
                       style={{
-                        width: "21rem",
+                        width: "18rem",
                       }}
                     />
                   </Box>
@@ -110,15 +110,15 @@ export default function ContactForm() {
                     InputLabelProps={{
                       style: { color: "var(--sec-color)" },
                     }}
-                    InputProps={{
-                      sx: {
-                        "& .MuiOutlinedInput-root": {
-                          "&.Mui-focused fieldset": {
-                            borderColor: "green", // Couleur du cadre lors du focus
-                          },
-                        },
-                      },
-                    }}
+                    // InputProps={{
+                    //   sx: {
+                    //     "& .MuiOutlinedInput-root": {
+                    //       "&.Mui-focused fieldset": {
+                    //         borderColor: "green", // Couleur du cadre lors du focus
+                    //       },
+                    //     },
+                    //   },
+                    // }}
                   />
                   <Button
                     className="submit"
