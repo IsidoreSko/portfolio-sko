@@ -1,3 +1,7 @@
+/* .skills-container {
+  max-width: 200%;
+} */
+
 .icons {
   display: flex;
   flex-direction: column;
@@ -5,15 +9,15 @@
 }
 
 .icons img {
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
 }
 
 .name {
   display: flex;
   color: var(--sec-color);
-  font-size: 20px;
+  font-size: 2.5rem;
   font-weight: bold;
   margin-top: 0.5rem;
   max-width: 8rem;

@@ -3,7 +3,7 @@ import "./aboutMe.css";
 function AboutMe() {
   return (
     <section id="aboutMe">
-      <h3>Qui suis-je?</h3>
+      <h2>Qui suis-je?</h2>
       <div className="to-present">
         <p>
           "Animé par la passion pour les technologies d'avenir, j'ai entrepris

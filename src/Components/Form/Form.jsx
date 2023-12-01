@@ -2,6 +2,7 @@ import "./form.css";
 
 import { useState } from "react";
 import { TextField, Button, Grid, Box } from "@mui/material";
+import emailjs from "emailjs-com";
 
 import Contact from "../../Assets/pictures/contact.png";
 
@@ -12,6 +13,37 @@ export default function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    const templateParams = {
+      from_name: name,
+      from_email: email,
+      message: message,
+    };
+
+    emailjs
+      .send(
+        "service_m0ucmmq",
+        "template_qbg62go",
+        templateParams,
+        "vpxND3Whh9p5bgq1a"
+      )
+      .then(
+        (response) => {
+          console.log(
+            "Message envoyé avec succès!",
+            response.status,
+            response.text
+          );
+          alert("Message envoyé avec succès !");
+          setName("");
+          setEmail("");
+          setMessage("");
+        },
+        (err) => {
+          console.log("Échec de l'envoi du message.", err);
+          alert("Une erreur s'est produite lors de l'envoi du message.");
+        }
+      );
   };
 
   return (
@@ -46,36 +78,67 @@ export default function ContactForm() {
                 </Grid>
                 <Grid item xs={12} md={6}>
                   <TextField
-                    // sx={{
-                    //   border: "1px solid var(--sec-color)",
-                    // }}
                     sx={{
                       mt: 2,
-                      border: "1px solid var(--sec-color)",
                       color: "var(--sec-color)",
                       fontSize: "1.2rem",
                       fontWeight: "300",
+                      "& .MuiInputLabel-root": {
+                        color: "var(--sec-color)",
+                      },
+                      "& .Mui-focused .MuiInputLabel-root": {
+                        color: "var(--sec-color)",
+                        transform: "translate(14px, -6px) scale(0.75)",
+                      },
+                      "& .MuiOutlinedInput-root": {
+                        "& fieldset": {
+                          borderColor: "var(--sec-color)",
+                        },
+                        "&:hover fieldset": {
+                          borderColor: "var(--third-color)",
+                        },
+                        "&.Mui-focused fieldset": {
+                          border: "1px solid var(--sec-color)",
+                        },
+                      },
                     }}
                     fullWidth
-                    label="Name"
+                    label="name"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     margin="normal"
                     required
-                    InputLabelProps={{
+                    inputProps={{
                       style: { color: "var(--sec-color)" },
+                    }}
+                    InputProps={{
+                      style: { caretColor: "var(--sec-color)" },
                     }}
                   />
                   <TextField
-                    // sx={{
-                    //   border: "1px solid ",
-                    // }}
                     sx={{
                       mt: 2,
-                      border: "1px solid var(--sec-color)",
                       color: "var(--sec-color)",
                       fontSize: "1.2rem",
                       fontWeight: "300",
+                      "& .MuiInputLabel-root": {
+                        color: "var(--sec-color)",
+                      },
+                      "& .Mui-focused .MuiInputLabel-root": {
+                        color: "var(--sec-color)",
+                        transform: "translate(14px, -6px) scale(0.75)",
+                      },
+                      "& .MuiOutlinedInput-root": {
+                        "& fieldset": {
+                          borderColor: "var(--sec-color)",
+                        },
+                        "&:hover fieldset": {
+                          borderColor: "var(--third-color)",
+                        },
+                        "&.Mui-focused fieldset": {
+                          border: "1px solid var(--sec-color)",
+                        },
+                      },
                     }}
                     fullWidth
                     label="Email"
@@ -84,41 +147,52 @@ export default function ContactForm() {
                     margin="normal"
                     required
                     type="email"
-                    InputLabelProps={{
+                    inputProps={{
                       style: { color: "var(--sec-color)" },
+                    }}
+                    InputProps={{
+                      style: { caretColor: "var(--sec-color)" },
                     }}
                   />
                   <TextField
-                    // sx={{
-                    //   border: "1px solid var(--sec-color)",
-                    // }}
                     sx={{
                       mt: 2,
-                      border: "1px solid var(--sec-color)",
                       color: "var(--sec-color)",
                       fontSize: "1.2rem",
                       fontWeight: "300",
+                      "& .MuiInputLabel-root": {
+                        color: "var(--sec-color)",
+                      },
+                      "& .Mui-focused .MuiInputLabel-root": {
+                        color: "var(--sec-color)",
+                        transform: "translate(14px, -6px) scale(0.75)",
+                      },
+                      "& .MuiOutlinedInput-root": {
+                        "& fieldset": {
+                          borderColor: "var(--sec-color)",
+                        },
+                        "&:hover fieldset": {
+                          borderColor: "var(--third-color)",
+                        },
+                        "&.Mui-focused fieldset": {
+                          border: "1px solid var(--sec-color)",
+                        },
+                      },
                     }}
                     fullWidth
-                    label="Message"
+                    label="message"
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
                     margin="normal"
                     required
                     multiline
                     rows={2}
-                    InputLabelProps={{
+                    inputProps={{
                       style: { color: "var(--sec-color)" },
                     }}
-                    // InputProps={{
-                    //   sx: {
-                    //     "& .MuiOutlinedInput-root": {
-                    //       "&.Mui-focused fieldset": {
-                    //         borderColor: "green", // Couleur du cadre lors du focus
-                    //       },
-                    //     },
-                    //   },
-                    // }}
+                    InputProps={{
+                      style: { caretColor: "var(--sec-color)" },
+                    }}
                   />
                   <Button
                     className="submit"

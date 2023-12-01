@@ -3,12 +3,12 @@
       "id": "1",
       "cover":"/Images/projectPics/argentBank.webp",
       "images": [
-        "/Images/projectPics/argentBank1.PNG",
-        "/Images/projectPics/argentBank2.PNG",
-        "/Images/projectPics/argentBank3.PNG"
+        "/Images/projectPics/argentBank1.webp",
+        "/Images/projectPics/argentBank2.webp",
+        "/Images/projectPics/argentBank3.webp"
       ],
       "title": "ArgentBank",
-      "description": "site qui permettre de fournir une plateforme réactive et sécurisée permettant aux utilisateurs de gérer leur authentification, d'accéder à leur profil, et éventuellement de gérer leurs transactions financières.",
+      "description": "Site qui permettre de fournir une plateforme réactive et sécurisée permettant aux utilisateurs de gérer leur authentification, d'accéder à leur profil, et éventuellement de gérer leurs transactions financières.",
       "link": " Github",
       "lien" : "https://github.com/IsidoreSko/ArgentBank-frontend",
       "site" : "",
@@ -19,9 +19,9 @@
       "id": "2",
       "cover":"/Images/projectPics/ohMyFood.webp",
       "images": [
-        "/Images/projectPics/ohMyFood1.PNG",
-        "/Images/projectPics/ohMyFood2.PNG",
-        "/Images/projectPics/ohMyFood2.PNG"
+        "/Images/projectPics/ohMyFood1.webp",
+        "/Images/projectPics/ohMyFood2.webp",
+        "/Images/projectPics/ohMyFood2.webp"
       ],
       "title": "Ohmyfood",
       "description": "Création d'un site répertoriant les menus de restaurants gastronomiques à Paris. Le site permet aux clients de composer leur propre menu et de réserver leur repas",
@@ -34,9 +34,9 @@
       "id": "3",
       "cover":"/Images/projectPics/kasa.webp",
       "images": [ 
-        "/Images/projectPics/kasa1.PNG",       
-        "/Images/projectPics/kasa2.PNG",
-        "/Images/projectPics/kasa3.PNG"
+        "/Images/projectPics/kasa1.webp",       
+        "/Images/projectPics/kasa2.webp",
+        "/Images/projectPics/kasa3.webp"
       ],
       "title": "Kasa",
       "description": " Le site web de Kasa est une plateforme conviviale permettant de rechercher et de réserver des hébergements entre particuliers, tels que des appartements.",
@@ -65,9 +65,9 @@
       "id": "5",
       "cover":"/Images/projectPics/nina.webp",
       "images": [
-        "/Images/projectPics/nina1.PNG",
-        "/Images/projectPics/2.PNG",
-        "/Images/projectPics/nina3.PNG"
+        "/Images/projectPics/nina1.webp",
+        "/Images/projectPics/nina2.webp",
+        "/Images/projectPics/nina3.webp"
       ],
       "title": "Nina Carducci",
       "description": "Améliorer le référencement du site, en augmentant sa visibilité auprès des clients potentiels.La fourniture du code est optimisé avec un rapport de performance pour démontrer les résultats.",
@@ -81,12 +81,12 @@
       "id": "6",
       "cover": "/Images/projectPics/printIt.webp",
       "images": [ 
-        "/Images/projectPics/printIt1.PNG",
-        "/Images/projectPics/t.PNG",
-        "/Images/projectPics/printIt3.PNG"     
+        "/Images/projectPics/printIt1.webp",
+        "/Images/projectPics/printIt2.webp",
+        "/Images/projectPics/printIt3.webp"     
       ],
       "title": "Print-it",
-      "description": "",
+      "description": "Mordernisation d'un site web d'impression HTML5 / CSS3, en y incorporant un slider codé en JavaScript.",
       "link": "View In Github",
       "lien" : "https://github.com/IsidoreSko/Print-it-JS",
       "site" : "https://isidoresko.github.io/Print-it-JS/",

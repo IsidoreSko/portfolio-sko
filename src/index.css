@@ -25,30 +25,35 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  color: var(--third-color);
-  -webkit-text-stroke: 1px var(--sec-color);
-  font-size: 5em;
+  color: var(--sec-color);
+  /* -webkit-text-stroke: 2px var(--third-color); */
+  font-size: 3em;
   font-weight: 1200;
 }
 
 h2 {
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 5em;
+  /* display: flex;
+  align-items: center; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  font-size: 2.5em;
   font-weight: 1200;
-  position: absolute;
-  width: 100%;
+  /* position: absolute; */
+  /* width: 100%; */
   text-align: center;
+  color: var(--third-color);
+  margin-top: 2.3rem;
+  padding-bottom: 1.2rem;
 }
 
 h3 {
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
   font-size: 2.5rem;
   font-weight: 1200;
-  color: var(--sec-color);
+  /* color: var(--sec-color); */
+  color: var(--third-color);
   /* -webkit-text-stroke: 2px var(--third-color); */
-  margin-top: 2.3rem;
 }
 
 :root {

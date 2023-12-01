@@ -1,21 +1,28 @@
 #aboutMe {
-  padding: 60px;
+  padding: 7rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  /* background-color: white; */
+  /* display: flex; */
+  /* flex-direction: column; */
+
+  /* justify-content: center; */
   /* background-color: var(--sec-color); */
 }
 
-#aboutMe h3 {
-  align-items: center;
-  /* color: var(--main-color); */
-}
+/* #aboutMe h2 { */
+/* align-items: center; */
+/* color: var(--main-color); */
+/* } */
 
 .to-present {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
   border-radius: 25px;
-  border: 4mm ridge var(--main-color);
+  border: 4px solid var(--third-color);
+  /* border: 4mm ridge var(--main-color); */
   margin-top: 3.4rem;
   margin-bottom: 1.8rem;
   text-align: justify;

@@ -3,14 +3,14 @@ import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 
 function Banner() {
   return (
-    <div className="banner">
-      <div>
+    <div>
+      <div className="banner">
         <div className="port-folio font">Portfolio</div>
         <div className="port-folio">
           <span>&nbsp;Olivier Shmoel Khan&nbsp;</span>
         </div>
       </div>
-      <span>Développeur Web</span>
+      <h1 className="">Développeur Web</h1>
       <div className="blink-banner">
         <span>Scroll</span>
         <ArrowDownwardIcon
