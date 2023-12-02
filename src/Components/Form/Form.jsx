@@ -4,7 +4,7 @@ import { useState } from "react";
 import { TextField, Button, Grid, Box } from "@mui/material";
 import emailjs from "emailjs-com";
 
-import Contact from "../../Assets/pictures/contact.png";
+import Contact from "../../Assets/pictures/contact.webp";
 
 export default function ContactForm() {
   const [name, setName] = useState("");
@@ -71,7 +71,7 @@ export default function ContactForm() {
                       src={Contact}
                       alt="Contact"
                       style={{
-                        width: "18rem",
+                        width: "16rem",
                       }}
                     />
                   </Box>

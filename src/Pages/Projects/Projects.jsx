@@ -9,6 +9,9 @@ import Modal from "@mui/material/Modal";
 
 import Carousel from "../../Components/Carousel/Carousel";
 
+import GitHubIcon from "@mui/icons-material/GitHub";
+import PreviewIcon from "@mui/icons-material/Preview";
+
 const style = {
   position: "absolute",
   top: "50%",
@@ -70,6 +73,28 @@ function Projects() {
               >
                 {project && project.description}
               </Typography>
+              {project && (
+                <a
+                  href={project.lien}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link-href"
+                  title={project.lien}
+                >
+                  <GitHubIcon sx={{ color: "black" }} />
+                </a>
+              )}
+              {project && (
+                <a
+                  href={project.site}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link-href"
+                  title={project.site}
+                >
+                  <PreviewIcon sx={{ color: "black" }} />
+                </a>
+              )}
             </Box>
           </Modal>
         </div>

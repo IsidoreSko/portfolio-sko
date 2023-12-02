@@ -1,37 +1,37 @@
 [
     {
       "id": "a1",
-      "image": "/Images/icons/redux.jpg",
+      "image": "/Images/icons/redux.webp",
       "description": "Redux icon",
       "name": "Redux"
     },
     {
       "id": "a2",
-      "image": "/Images/icons/react.jpg",
+      "image": "/Images/icons/react.webp",
       "description": "React icon",
       "name": "React"
     },
     {
       "id": "a3",
-      "image": "/Images/icons/css.png",
+      "image": "/Images/icons/css.webp",
       "description": "Css icon",
       "name": "CSS"
     },
     {
       "id": "a4",
-      "image": "/Images/icons/html.png",
+      "image": "/Images/icons/html.webp",
       "description": "Html icon",
       "name" :"HTML"
     },
     {
       "id": "a5",
-      "image": "/Images/icons/js.png",
+      "image": "/Images/icons/js.webp",
       "description": "Js icon",
       "name": "JavaScript"
     },
     {
       "id": "a6",
-      "image": "/Images/icons/sass.jpg",
+      "image": "/Images/icons/sass.webp",
      " description": "Sass icon",
       "name": "Sass"
     }
