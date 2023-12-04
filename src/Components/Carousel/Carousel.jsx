@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from "react";
 import ArrowBack from "@mui/icons-material/ArrowBackIos";
 import ArrowForward from "@mui/icons-material/ArrowForwardIos";
-// import { autocompleteClasses } from "@mui/material";
 
 function Carousel({ slides, slidesId }) {
   const [slideVu, setSlideVu] = useState(0);
@@ -10,7 +9,6 @@ function Carousel({ slides, slidesId }) {
 
   const nextSlide = () => {
     const newIndex = slideVu === length - 1 ? 0 : slideVu + 1;
-    console.log("New Index (Next):", newIndex);
     setSlideVu(newIndex);
   };
 
@@ -25,7 +23,7 @@ function Carousel({ slides, slidesId }) {
       <div className="carousel">
         {slides.map((slide, index) => (
           <img
-            key={index.id}
+            key={index}
             src={slide}
             alt={`${slidesId}-${index}`}
             style={{
@@ -58,6 +56,7 @@ function Carousel({ slides, slidesId }) {
                 bottom: "19rem",
                 color: "var(--fourth-color)",
                 fontSize: "3rem",
+                cursor: "pointer",
               }}
             />
             <div

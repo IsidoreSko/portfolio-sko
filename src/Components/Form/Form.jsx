@@ -66,14 +66,18 @@ export default function ContactForm() {
                       justifyContent: "center",
                     }}
                   >
-                    <img
-                      className="blink-contact"
-                      src={Contact}
-                      alt="Contact"
-                      style={{
-                        width: "16rem",
-                      }}
-                    />
+                    <div className="contact-title">
+                      <h2>Contactez-moi</h2>
+                      <img
+                        className="blink-contact"
+                        src={Contact}
+                        alt="Contact"
+                        style={{
+                          width: "16rem",
+                          height: "16rem",
+                        }}
+                      />
+                    </div>
                   </Box>
                 </Grid>
                 <Grid item xs={12} md={6}>

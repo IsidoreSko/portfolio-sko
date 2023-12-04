@@ -1,9 +1,10 @@
 import "./aboutMe.css";
 
+import Pic from "../../Assets/pictures/pic.webp";
+
 function AboutMe() {
   return (
     <section id="aboutMe">
-      <h2>Qui suis-je?</h2>
       <div className="to-present">
         <p>
           "Animé par la passion pour les technologies d'avenir, j'ai entrepris
@@ -19,6 +20,18 @@ function AboutMe() {
           tout en continuant à grandir professionnellement dans l'univers
           passionnant du développement web."
         </p>
+      </div>
+      <div className="title-pic">
+        <h2>Qui suis-je?</h2>
+        <img
+          className="pic-me"
+          src={Pic}
+          alt="Olivier Shmoel Khan portrait"
+          style={{
+            width: "11rem",
+            height: "12rem",
+          }}
+        />
       </div>
     </section>
   );

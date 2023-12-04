@@ -1,16 +1,3 @@
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
 * {
   margin: 0px;
   padding: 0px;
@@ -18,6 +5,8 @@ code {
 
 body {
   /* font-family: "Snell Roundhand", cursive, sans-serif; */
+  /* font-family: "Brush Script MT", cursive; */
+  font-family: Garamond, serif;
   background-color: var(--main-color);
 }
 
@@ -26,20 +15,13 @@ h1 {
   margin-right: auto;
   text-align: center;
   color: var(--sec-color);
-  /* -webkit-text-stroke: 2px var(--third-color); */
   font-size: 3em;
   font-weight: 1200;
 }
 
 h2 {
-  /* display: flex;
-  align-items: center; */
-  /* margin-left: auto; */
-  /* margin-right: auto; */
   font-size: 2.5em;
   font-weight: 1200;
-  /* position: absolute; */
-  /* width: 100%; */
   text-align: center;
   color: var(--third-color);
   margin-top: 2.3rem;
@@ -47,19 +29,21 @@ h2 {
 }
 
 h3 {
-  /* margin-left: auto;
-  margin-right: auto; */
   font-size: 2.5rem;
   font-weight: 1200;
-  /* color: var(--sec-color); */
   color: var(--third-color);
-  /* -webkit-text-stroke: 2px var(--third-color); */
 }
 
 :root {
-  --main-color: rgb(27, 25, 25);
-  --sec-color: white;
-  --third-color: #0f03f4;
+  /* --main-color: rgb(154, 81, 9); */
+  --main-color: rgb(0, 0, 0);
+  /* --main-color: rgb(27, 25, 25); */
+  /* --sec-color: rgb(176, 131, 87); */
+  --sec-color: rgb(255, 255, 255);
+  --third-color: #4970fd;
+  /* --third-color: #0f03f4; */
   --fourth-color: rgb(255, 0, 234);
-  --fifth-color: rgb(222, 214, 214);
+  --fifth-color: rgb(248, 235, 221);
+  /* --fifth-color: rgb(244, 199, 155); */
+  /* --fifth-color: rgb(222, 214, 214); */
 }

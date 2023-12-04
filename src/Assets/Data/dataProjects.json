@@ -8,11 +8,9 @@
         "/Images/projectPics/argentBank3.webp"
       ],
       "title": "ArgentBank",
-      "description": "Site qui permettre de fournir une plateforme réactive et sécurisée permettant aux utilisateurs de gérer leur authentification, d'accéder à leur profil, et éventuellement de gérer leurs transactions financières.",
-      "link": " Github",
-      "lien" : "https://github.com/IsidoreSko/ArgentBank-frontend",
-      "site" : "",
-      "languages": ["React", "Redux"]
+      "description": "ARGENTBANK est un Site de banque en ligne. Intégration du site et plus particulièrement de la partie d'Authentification des utilisateurs. Puis modélisationsdes des différentes routes API pour l'implémentattion futrur concernant les manipulations sur les transactions, en suivant les directives de Swagger.",
+      "link" : "https://github.com/IsidoreSko/ArgentBank-frontend",
+      "languages": ["React", "Redux", "Swagger"]
       
     },
     {
@@ -24,9 +22,8 @@
         "/Images/projectPics/ohMyFood2.webp"
       ],
       "title": "Ohmyfood",
-      "description": "Création d'un site répertoriant les menus de restaurants gastronomiques à Paris. Le site permet aux clients de composer leur propre menu et de réserver leur repas",
-      "link": "View In Github",
-      "lien" : "https://github.com/IsidoreSko/OhMyFood",
+      "description": "OHMYFOOD est un site répertoriant les menus de restaurants gastronomiques à Paris. Le site permet aux clients de composer leur propre menu et de réserver leur repas. Intégration du site en version “mobile first.",
+      "link" : "https://github.com/IsidoreSko/OhMyFood",
       "site" : " https://isidoresko.github.io/OhMyFood/",
       "languages": ["HTML", "CSS"]
     },
@@ -39,11 +36,9 @@
         "/Images/projectPics/kasa3.webp"
       ],
       "title": "Kasa",
-      "description": " Le site web de Kasa est une plateforme conviviale permettant de rechercher et de réserver des hébergements entre particuliers, tels que des appartements.",
-      "link": "View In Github",
-      "lien" : "https://github.com/IsidoreSko/Kasa",
-      "site" : "",
-      "languages": ["SASS", "React"]
+      "description": "KASA est une plateforme permettant de rechercher et de réserver des hébergements entre particuliers. Intégrationdu site et utilisation d'éléments interactifs (carousel, volets déroulants).",
+      "link" : "https://github.com/IsidoreSko/Kasa",
+      "languages": ["SASS", "React", "JavaScript"]
      
     },
     {
@@ -54,10 +49,9 @@
         "/Images/projectPics/booki2.webp"
       ],
       "title": "Booki",
-      "description": "Un site permettant aux usagers de trouver des hébergements et des activités dans leur ville de choix.Transformer les maquettes desktop,tablette et mobile en code HTML et CSS",
-      "link": "View In Github",
-      "lien" : "",
-      "site" : "",
+      "description": " BOOKI est un site permettant aux usagers de trouver des hébergements et des activités dans la ville de leur choix.Intégration de l'interface du site à partir des maquettes desktop, tablette et mobile.",
+      "link" : "https://github.com/IsidoreSko/Booki",
+      "site" : "https://isidoresko.github.io/Booki/",
       "languages": ["HTML", "CSS"]
    
     },
@@ -70,11 +64,10 @@
         "/Images/projectPics/nina3.webp"
       ],
       "title": "Nina Carducci",
-      "description": "Améliorer le référencement du site, en augmentant sa visibilité auprès des clients potentiels.La fourniture du code est optimisé avec un rapport de performance pour démontrer les résultats.",
-      "link": "View In Github",
-      "lien" : "https://github.com/IsidoreSko/ninacarducci.github.io",
+      "description": "Amélioration du référencement du site de Nina Carducci, photographe professionnel, en augmentant sa visibilité auprès des clients potentiels, ainsi qu'en améliorant les performances du site. Utilisation de LightHouse outil d'audit SEO.",
+      "link" : "https://github.com/IsidoreSko/ninacarducci.github.io",
       "site" : " https://isidoresko.github.io/ninacarducci.github.io/",
-      "languages": ["Optimisez le SEO"]
+      "languages": ["HTML", "CSS", "JavaScript"]
     },
    
     {
@@ -87,10 +80,9 @@
       ],
       "title": "Print-it",
       "description": "Mordernisation d'un site web d'impression HTML5 / CSS3, en y incorporant un slider codé en JavaScript.",
-      "link": "View In Github",
-      "lien" : "https://github.com/IsidoreSko/Print-it-JS",
+      "link" : "https://github.com/IsidoreSko/Print-it-JS",
       "site" : "https://isidoresko.github.io/Print-it-JS/",
-      "languages": ["React"]
+      "languages": ["React", "JavaScript"]
     }
   ]
 

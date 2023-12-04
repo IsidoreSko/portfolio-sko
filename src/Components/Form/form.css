@@ -2,6 +2,17 @@
   color: var(--sec-color);
 }
 
+.contact-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-title h2 {
+  margin: 0px;
+}
+
 .blink-contact {
   animation-duration: 7s;
   animation-name: clignoter;
