@@ -83,7 +83,7 @@
     height: 9rem;
   }
   #aboutMe h2 {
-    word-break: break-word;
+    word-break: normal;
     width: 9rem;
   }
 }

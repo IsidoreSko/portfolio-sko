@@ -35,7 +35,7 @@
 
 .arrow-left {
   position: absolute;
-  left: 1.8rem;
+  left: 1.6rem;
   bottom: 19rem;
   color: var(--fourth-color);
   font-size: 3rem !important;
@@ -76,6 +76,15 @@
   }
 }
 
+@media (max-width: 600px) {
+  .arrow-left {
+    bottom: 17rem;
+  }
+  .arrow-right {
+    bottom: 17rem;
+  }
+}
+
 @media (max-width: 481px) {
   .arrow-left {
     font-size: 1.6rem !important;
@@ -84,5 +93,32 @@
   .arrow-right {
     font-size: 1.6rem !important;
     bottom: 15rem;
+  }
+}
+
+@media (max-width: 453px) {
+  .arrow-left {
+    bottom: 17rem;
+  }
+  .arrow-right {
+    bottom: 17rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .arrow-left {
+    bottom: 19rem;
+  }
+  .arrow-right {
+    bottom: 19rem;
+  }
+}
+
+@media (max-width: 365px) {
+  .arrow-left {
+    bottom: 20rem;
+  }
+  .arrow-right {
+    bottom: 20rem;
   }
 }
