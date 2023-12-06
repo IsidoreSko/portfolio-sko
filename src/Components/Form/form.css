@@ -1,5 +1,21 @@
+.container-form {
+  direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.box-form {
+  display: flex;
+  justify-content: center;
+}
+
 .submit {
-  color: var(--sec-color);
+  color: var(--sec-color) !important;
+  border: 1px solid var(--sec-color) !important;
+  color: var(--sec-color) !important;
+  font-size: 1.2rem !important;
+  font-weight: 300 !important;
 }
 
 .contact-title {
@@ -7,6 +23,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 2rem;
 }
 
 .contact-title h2 {
@@ -18,7 +35,50 @@
   animation-name: clignoter;
   animation-iteration-count: infinite;
   transition: none;
+  height: 100%;
+  width: 12rem;
 }
+
+/* Styles pour le composant TextField */
+.TextField {
+  margin-top: 2px;
+  color: var(--sec-color); /* Couleur du texte */
+  font-size: 1.2rem;
+  font-weight: 300; /* Poids de la police */
+}
+
+/* Styles pour MuiInputLabel */
+.TextField .MuiInputLabel-root {
+  color: var(--sec-color); /* Couleur de l'étiquette */
+}
+
+/* Styles pour MuiInputLabel lorsqu'il est en focus */
+.TextField .Mui-focused .MuiInputLabel-root {
+  color: var(--sec-color); /* Couleur de l'étiquette en focus */
+  transform: translate(14px, -6px) scale(0.75); /* Animation de l'étiquette en focus */
+}
+
+/* Styles pour MuiOutlinedInput */
+.TextField .MuiOutlinedInput-root {
+  /* Styles pour le fieldset à l'intérieur de MuiOutlinedInput */
+  & fieldset {
+    border-color: var(--sec-color); /* Couleur de la bordure */
+  }
+
+  /* Styles pour le fieldset lorsqu'il est survolé */
+  &:hover fieldset {
+    border-color: var(
+      --third-color
+    ); /* Couleur de la bordure lorsqu'il est survolé */
+  }
+
+  /* Styles pour le fieldset lorsqu'il est en focus */
+  &.Mui-focused fieldset {
+    border: 1px solid var(--sec-color); /* Bordure solide lorsque l'input est en focus */
+  }
+}
+
+/* Animation:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
 @keyframes clignoter {
   0% {
@@ -35,5 +95,21 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+/* Responsive:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+@media (max-width: 1025px) {
+}
+
+@media (max-width: 950px) {
+}
+
+@media (max-width: 769px) {
+  .container-form {
+    align-items: center;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
   }
 }

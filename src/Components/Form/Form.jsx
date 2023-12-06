@@ -48,64 +48,26 @@ export default function ContactForm() {
 
   return (
     <Box>
-      <Grid
-        container
-        direction="column"
-        alignItems="center"
-        justifyContent="center"
-        sx={{ height: "100%" }}
-      >
-        <Grid item xs={12} md={4} sx={{}}>
+      <Grid className="container-form">
+        <Grid item xs={12} md={4}>
           <Box sx={{ p: 2 }}>
             <form onSubmit={handleSubmit}>
               <Grid container spacing={2}>
                 <Grid item xs={12} md={6}>
-                  <Box
-                    sx={{
-                      display: "flex",
-                      justifyContent: "center",
-                    }}
-                  >
+                  <Box className="box-form">
                     <div className="contact-title">
-                      <h2>Contactez-moi</h2>
+                      <h2>Me contacter</h2>
                       <img
                         className="blink-contact"
                         src={Contact}
                         alt="Contact"
-                        style={{
-                          width: "16rem",
-                          height: "16rem",
-                        }}
                       />
                     </div>
                   </Box>
                 </Grid>
                 <Grid item xs={12} md={6}>
                   <TextField
-                    sx={{
-                      mt: 2,
-                      color: "var(--sec-color)",
-                      fontSize: "1.2rem",
-                      fontWeight: "300",
-                      "& .MuiInputLabel-root": {
-                        color: "var(--sec-color)",
-                      },
-                      "& .Mui-focused .MuiInputLabel-root": {
-                        color: "var(--sec-color)",
-                        transform: "translate(14px, -6px) scale(0.75)",
-                      },
-                      "& .MuiOutlinedInput-root": {
-                        "& fieldset": {
-                          borderColor: "var(--sec-color)",
-                        },
-                        "&:hover fieldset": {
-                          borderColor: "var(--third-color)",
-                        },
-                        "&.Mui-focused fieldset": {
-                          border: "1px solid var(--sec-color)",
-                        },
-                      },
-                    }}
+                    className="TextField"
                     fullWidth
                     label="name"
                     value={name}
@@ -120,30 +82,7 @@ export default function ContactForm() {
                     }}
                   />
                   <TextField
-                    sx={{
-                      mt: 2,
-                      color: "var(--sec-color)",
-                      fontSize: "1.2rem",
-                      fontWeight: "300",
-                      "& .MuiInputLabel-root": {
-                        color: "var(--sec-color)",
-                      },
-                      "& .Mui-focused .MuiInputLabel-root": {
-                        color: "var(--sec-color)",
-                        transform: "translate(14px, -6px) scale(0.75)",
-                      },
-                      "& .MuiOutlinedInput-root": {
-                        "& fieldset": {
-                          borderColor: "var(--sec-color)",
-                        },
-                        "&:hover fieldset": {
-                          borderColor: "var(--third-color)",
-                        },
-                        "&.Mui-focused fieldset": {
-                          border: "1px solid var(--sec-color)",
-                        },
-                      },
-                    }}
+                    className="TextField"
                     fullWidth
                     label="Email"
                     value={email}
@@ -159,30 +98,7 @@ export default function ContactForm() {
                     }}
                   />
                   <TextField
-                    sx={{
-                      mt: 2,
-                      color: "var(--sec-color)",
-                      fontSize: "1.2rem",
-                      fontWeight: "300",
-                      "& .MuiInputLabel-root": {
-                        color: "var(--sec-color)",
-                      },
-                      "& .Mui-focused .MuiInputLabel-root": {
-                        color: "var(--sec-color)",
-                        transform: "translate(14px, -6px) scale(0.75)",
-                      },
-                      "& .MuiOutlinedInput-root": {
-                        "& fieldset": {
-                          borderColor: "var(--sec-color)",
-                        },
-                        "&:hover fieldset": {
-                          borderColor: "var(--third-color)",
-                        },
-                        "&.Mui-focused fieldset": {
-                          border: "1px solid var(--sec-color)",
-                        },
-                      },
-                    }}
+                    className="TextField"
                     fullWidth
                     label="message"
                     value={message}
@@ -204,13 +120,9 @@ export default function ContactForm() {
                     type="submit"
                     sx={{
                       mt: 2,
-                      border: "1px solid var(--sec-color)",
-                      color: "var(--sec-color)",
-                      fontSize: "1.2rem",
-                      fontWeight: "300",
                     }}
                   >
-                    Submit
+                    Envoyer
                   </Button>
                 </Grid>
               </Grid>

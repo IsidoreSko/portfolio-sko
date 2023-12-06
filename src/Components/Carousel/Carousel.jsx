@@ -1,3 +1,5 @@
+import "./carousel.css";
+
 import React from "react";
 import { useState } from "react";
 import ArrowBack from "@mui/icons-material/ArrowBackIos";
@@ -14,7 +16,6 @@ function Carousel({ slides, slidesId }) {
 
   const previousSlide = () => {
     const newIndex = slideVu === 0 ? length - 1 : slideVu - 1;
-    console.log("New Index (Previous):", newIndex);
     setSlideVu(newIndex);
   };
 
@@ -23,51 +24,20 @@ function Carousel({ slides, slidesId }) {
       <div className="carousel">
         {slides.map((slide, index) => (
           <img
+            className="img-carousel"
             key={index}
             src={slide}
             alt={`${slidesId}-${index}`}
             style={{
-              width: "90%",
-              height: "18rem",
-              margin: "auto",
               display: index === slideVu ? "block" : "none",
             }}
           />
         ))}
         {length > 1 && (
           <div>
-            <ArrowBack
-              className="arrowLeft"
-              onClick={previousSlide}
-              style={{
-                position: "absolute",
-                left: "1.2rem",
-                bottom: "19rem",
-                color: "var(--fourth-color)",
-                fontSize: "3rem",
-              }}
-            />
-            <ArrowForward
-              className="arrowRight"
-              onClick={nextSlide}
-              style={{
-                position: "absolute",
-                right: "1.2rem",
-                bottom: "19rem",
-                color: "var(--fourth-color)",
-                fontSize: "3rem",
-                cursor: "pointer",
-              }}
-            />
-            <div
-              className="counter"
-              style={{
-                textAlign: "center",
-                color: "var(--fourth-color)",
-                fontSize: "1.1rem",
-                fontWeight: "bold",
-              }}
-            >
+            <ArrowBack className="arrow-left" onClick={previousSlide} />
+            <ArrowForward className="arrow-right" onClick={nextSlide} />
+            <div className="counter">
               {slideVu + 1}/{length}
             </div>
           </div>

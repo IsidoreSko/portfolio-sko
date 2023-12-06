@@ -18,7 +18,7 @@ const style = {
   left: "50%",
   transform: "translate(-50%, -50%)",
   width: "50%",
-  height: "80vh",
+  // height: "30rem",
   bgcolor: "var(--sec-color)",
   border: "4px solid var(--fourth-color)",
   boxShadow: 24,
@@ -41,16 +41,13 @@ function Projects() {
   return (
     <>
       <section id="projects">
-        <h2>Projets réalisés</h2>
         <div className="cards-container">
+          <h2>Projets réalisés</h2>
           {dataProjects.map((dataProject) => (
             <Button
+              className="button-card"
               key={dataProject.id}
               onClick={() => handleOpen(dataProject.id)}
-              style={{
-                margin: "0px",
-                padding: "0px",
-              }}
             >
               <Card dataProjects={dataProject} />
             </Button>
@@ -68,42 +65,40 @@ function Projects() {
                 <Carousel slides={project.images} slidesId={project.id} />
               )}
               <Typography
-                id="modal-modal-description"
+                id="modal-description"
                 sx={{
                   mt: 2,
-                  textAlign: "justify",
-                  fontSize: "1.2rem",
-                  marginBottom: "0.8rem",
                 }}
               >
                 {project && project.description}
               </Typography>
-              {project && (
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="link-href"
-                >
-                  <GitHubIcon
-                    sx={{ color: "var(--fourth-color)", fontSize: "1.9rem" }}
-                  />
-                  <span className="link-title">Le code</span>
-                </a>
-              )}
-              {project && project.site ? (
-                <a
-                  href={project.site}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="link-href"
-                >
-                  <PreviewIcon
-                    sx={{ color: "var(--fourth-color)", fontSize: "1.9rem" }}
-                  />
-                  <span className="link-title">Le site</span>
-                </a>
-              ) : null}
+              <div className="project-infos">
+                {project && (
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link-href"
+                  >
+                    <GitHubIcon className="git-eye-icon" />
+                    <span className="link-title">Voir le code</span>
+                  </a>
+                )}
+                {project && project.site ? (
+                  <a
+                    href={project.site}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link-href"
+                  >
+                    <PreviewIcon className="git-eye-icon" />
+                    <span className="link-title">Voir le site</span>
+                  </a>
+                ) : null}
+                <p className="project-languages">
+                  {project && project.languages.join(", ")}
+                </p>
+              </div>
             </Box>
           </Modal>
         </div>

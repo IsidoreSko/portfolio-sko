@@ -22,16 +22,8 @@ function AboutMe() {
         </p>
       </div>
       <div className="title-pic">
-        <h2>Qui suis-je?</h2>
-        <img
-          className="pic-me"
-          src={Pic}
-          alt="Olivier Shmoel Khan portrait"
-          style={{
-            width: "11rem",
-            height: "12rem",
-          }}
-        />
+        <h2>A propos de moi</h2>
+        <img className="pic-me" src={Pic} alt="Olivier Shmoel Khan portrait" />
       </div>
     </section>
   );

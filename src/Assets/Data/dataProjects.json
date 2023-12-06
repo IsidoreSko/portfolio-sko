@@ -11,7 +11,6 @@
       "description": "ARGENTBANK est un Site de banque en ligne. Intégration du site et plus particulièrement de la partie d'Authentification des utilisateurs. Puis modélisationsdes des différentes routes API pour l'implémentattion futrur concernant les manipulations sur les transactions, en suivant les directives de Swagger.",
       "link" : "https://github.com/IsidoreSko/ArgentBank-frontend",
       "languages": ["React", "Redux", "Swagger"]
-      
     },
     {
       "id": "2",
@@ -38,8 +37,7 @@
       "title": "Kasa",
       "description": "KASA est une plateforme permettant de rechercher et de réserver des hébergements entre particuliers. Intégrationdu site et utilisation d'éléments interactifs (carousel, volets déroulants).",
       "link" : "https://github.com/IsidoreSko/Kasa",
-      "languages": ["SASS", "React", "JavaScript"]
-     
+      "languages": ["SASS", "React", "JavaScript"]     
     },
     {
       "id": "4",
@@ -52,8 +50,7 @@
       "description": " BOOKI est un site permettant aux usagers de trouver des hébergements et des activités dans la ville de leur choix.Intégration de l'interface du site à partir des maquettes desktop, tablette et mobile.",
       "link" : "https://github.com/IsidoreSko/Booki",
       "site" : "https://isidoresko.github.io/Booki/",
-      "languages": ["HTML", "CSS"]
-   
+      "languages": ["HTML", "CSS"] 
     },
     {
       "id": "5",
@@ -67,7 +64,7 @@
       "description": "Amélioration du référencement du site de Nina Carducci, photographe professionnel, en augmentant sa visibilité auprès des clients potentiels, ainsi qu'en améliorant les performances du site. Utilisation de LightHouse outil d'audit SEO.",
       "link" : "https://github.com/IsidoreSko/ninacarducci.github.io",
       "site" : " https://isidoresko.github.io/ninacarducci.github.io/",
-      "languages": ["HTML", "CSS", "JavaScript"]
+      "languages": ["HTML", "CSS", "JavaScript"]   
     },
    
     {

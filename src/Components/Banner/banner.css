@@ -3,16 +3,26 @@
   color: var(--sec-color);
   background-color: var(--main-color);
   object-fit: cover;
-  padding-top: 40vh;
+  padding-top: 11rem;
   overflow: hidden;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   -webkit-perspective: 1000;
+  perspective: 1000;
   -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 .port-folio {
   display: inline-block;
   white-space: nowrap;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.arrow {
+  font-size: 4rem !important;
+  margin-bottom: -1rem;
 }
 
 .font {
@@ -40,6 +50,21 @@
   margin-left: -355px;
   animation: slidein 7s infinite;
 }
+
+.blink-banner {
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--fifth-color);
+  display: flex;
+  justify-content: center;
+  animation-duration: 2s;
+  animation-name: clignote;
+  animation-iteration-count: infinite;
+  transition: none;
+  padding-top: 11rem;
+}
+
+/* Animation::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
 @keyframes showup {
   0% {
@@ -92,19 +117,6 @@
   }
 }
 
-.blink-banner {
-  font-size: 3rem;
-  font-weight: 600;
-  color: var(--sec-color);
-  display: flex;
-  justify-content: center;
-  animation-duration: 2s;
-  animation-name: clignote;
-  animation-iteration-count: infinite;
-  transition: none;
-  padding-top: 11rem;
-}
-
 @keyframes clignote {
   0% {
     opacity: 1;
@@ -114,5 +126,72 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+/* Responsive:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+@media (max-width: 950px) {
+  .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .port-folio {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .font {
+    font-size: 2.1rem;
+  }
+  .port-folio:first-of-type,
+  .port-folio:last-of-type {
+    animation: none;
+  }
+  .port-folio:last-of-type span {
+    animation: none;
+    margin-left: -10px;
+    margin-bottom: 1rem;
+  }
+  .arrow {
+    font-size: 3rem !important;
+  }
+  .blink-banner {
+    padding-top: 6rem;
+  }
+}
+
+@media (max-width: 769px) {
+  .port-folio:last-of-type span {
+    animation: none;
+  }
+  .blink-banner {
+    font-size: 2.1rem;
+  }
+  .arrow {
+    font-size: 2.5rem !important;
+  }
+  ul {
+    margin-top: 0px;
+    height: 0px;
+    width: 200%;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 481px) {
+  .font {
+    font-size: 1.6rem;
+  }
+  .banner span {
+    font-size: 1.6rem;
+  }
+  .blink-banner {
+    padding-top: 4.5rem;
+    font-size: 1.6rem;
   }
 }

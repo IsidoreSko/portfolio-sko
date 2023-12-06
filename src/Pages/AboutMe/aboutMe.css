@@ -23,11 +23,80 @@
   border-radius: 10%;
   border: 4px solid var(--third-color);
   object-fit: cover;
+  width: 11rem;
+  height: 12rem;
 }
 
 .to-present p {
-  margin: 0.5rem;
-  color: var(--main-color);
-  font-size: 1.7rem;
-  font-weight: 500;
+  margin: 0.7rem;
+  color: var(--sixth-color);
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+.title-pic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsive:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+@media (max-width: 1025px) {
+  #aboutMe {
+    padding-bottom: 0px;
+  }
+  .title-pic {
+    gap: 9rem;
+  }
+}
+
+@media (max-width: 950px) {
+  #aboutMe {
+    padding: 3rem;
+  }
+  .to-present {
+    width: 100%;
+  }
+  .to-present p {
+    font-size: 1.2rem;
+  }
+  .title-pic {
+    gap: 0.1rem;
+  }
+}
+
+@media (max-width: 769px) {
+  #aboutMe {
+    flex-direction: column-reverse;
+  }
+  .title-pic {
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .to-present {
+    margin-top: 0px;
+  }
+  .pic-me {
+    width: 15rem;
+    height: 9rem;
+  }
+  #aboutMe h2 {
+    word-break: break-word;
+    width: 9rem;
+  }
+}
+
+@media (max-width: 481px) {
+  .pic-me {
+    width: 10rem;
+    height: 5rem;
+  }
+  #aboutMe h2 {
+    width: 5rem;
+  }
+  .to-present p {
+    font-size: 1rem;
+  }
 }

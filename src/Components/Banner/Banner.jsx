@@ -7,15 +7,13 @@ function Banner() {
       <div className="banner">
         <div className="port-folio font">Portfolio</div>
         <div className="port-folio">
-          <span>&nbsp;Olivier Shmoel Khan&nbsp;</span>
+          <span>Olivier Shmoel Khan</span>
         </div>
       </div>
       <h1 className="">Développeur Web</h1>
       <div className="blink-banner">
         <span>Scroll</span>
-        <ArrowDownwardIcon
-          style={{ fontSize: "4rem", marginBottom: "-1rem" }}
-        />
+        <ArrowDownwardIcon className="arrow" />
       </div>
     </div>
   );

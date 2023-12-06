@@ -1,41 +1,88 @@
 .carousel-container {
   margin: auto;
-  @media (max-width: 450px) {
-    height: 255px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .carousel {
-    width: 95%;
-    height: 415px;
-    border-radius: 25px;
-    margin: auto;
-    overflow: hidden;
-    @media (max-width: 450px) {
-      height: 255px;
-      border-radius: 10px;
-    }
-  }
+}
 
-  .pictureAppears {
-    display: none;
-  }
+.carousel {
+  width: 95%;
+  border-radius: 25px;
+  margin: auto;
+  overflow: hidden;
+}
 
-  .pictureAppears.active {
-    display: block;
-  }
+.img-carousel {
+  width: 90%;
+  height: 18rem;
+  margin: auto;
+}
 
+.pictureAppears {
+  display: none;
+}
+
+.pictureAppears.active {
+  display: block;
+}
+
+.counter {
+  position: absolute;
+  right: 48%;
+  text-align: center;
+  color: var(--fourth-color);
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.arrow-left {
+  position: absolute;
+  left: 1.8rem;
+  bottom: 19rem;
+  color: var(--fourth-color);
+  font-size: 3rem !important;
+  cursor: pointer;
+}
+
+.arrow-right {
+  position: absolute;
+  right: 0.8rem;
+  bottom: 19rem;
+  color: var(--fourth-color);
+  font-size: 3rem !important;
+  cursor: pointer;
+}
+
+/* Responsive:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+@media (max-width: 1025px) {
+}
+
+@media (max-width: 950px) {
   .counter {
-    position: absolute;
-    right: 48%;
-    top: 480px;
-    width: 24px;
-    height: 32px;
-    font-size: 18px;
-    color: white;
-    filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.5));
-    @media (max-width: 450px) {
-      top: 16%;
-    }
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 769px) {
+  .counter {
+    font-size: 0.9rem;
+  }
+  .arrow-left {
+    font-size: 2rem !important;
+    bottom: 15rem;
+  }
+  .arrow-right {
+    font-size: 2rem !important;
+    bottom: 15rem;
+  }
+}
+
+@media (max-width: 481px) {
+  .arrow-left {
+    font-size: 1.6rem !important;
+    bottom: 15rem;
+  }
+  .arrow-right {
+    font-size: 1.6rem !important;
+    bottom: 15rem;
   }
 }
