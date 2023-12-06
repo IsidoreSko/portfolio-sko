@@ -4,7 +4,7 @@ import dataSkills from "../../Assets/Data/dataSkills.json";
 import { useParallax } from "react-scroll-parallax";
 
 function BubbleIcons() {
-  const parallax = useParallax({ scale: [0, 1] });
+  const parallax = useParallax({ scale: [0, 0.9] });
   const bubblesData = dataSkills;
 
   return (

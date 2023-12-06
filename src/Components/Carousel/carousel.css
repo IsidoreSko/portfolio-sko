@@ -35,8 +35,8 @@
 
 .arrow-left {
   position: absolute;
-  left: 1.6rem;
-  bottom: 19rem;
+  left: 0.2rem;
+  bottom: 17rem;
   color: var(--fourth-color);
   font-size: 3rem !important;
   cursor: pointer;
@@ -44,8 +44,8 @@
 
 .arrow-right {
   position: absolute;
-  right: 0.8rem;
-  bottom: 19rem;
+  right: -0.5rem;
+  bottom: 17rem;
   color: var(--fourth-color);
   font-size: 3rem !important;
   cursor: pointer;
@@ -54,6 +54,9 @@
 /* Responsive:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
 @media (max-width: 1025px) {
+  .modal {
+    width: 65%;
+  }
 }
 
 @media (max-width: 950px) {
@@ -68,57 +71,48 @@
   }
   .arrow-left {
     font-size: 2rem !important;
-    bottom: 15rem;
+    bottom: 12rem;
   }
   .arrow-right {
     font-size: 2rem !important;
-    bottom: 15rem;
+    bottom: 12rem;
   }
 }
 
 @media (max-width: 600px) {
   .arrow-left {
-    bottom: 17rem;
+    bottom: 13rem;
   }
   .arrow-right {
-    bottom: 17rem;
+    bottom: 13rem;
   }
 }
 
 @media (max-width: 481px) {
   .arrow-left {
     font-size: 1.6rem !important;
-    bottom: 15rem;
+    bottom: 13rem;
   }
   .arrow-right {
     font-size: 1.6rem !important;
-    bottom: 15rem;
+    bottom: 13rem;
   }
 }
 
 @media (max-width: 453px) {
   .arrow-left {
-    bottom: 17rem;
+    bottom: 14rem;
   }
   .arrow-right {
-    bottom: 17rem;
+    bottom: 14rem;
   }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 360px) {
   .arrow-left {
-    bottom: 19rem;
+    bottom: 15rem;
   }
   .arrow-right {
-    bottom: 19rem;
-  }
-}
-
-@media (max-width: 365px) {
-  .arrow-left {
-    bottom: 20rem;
-  }
-  .arrow-right {
-    bottom: 20rem;
+    bottom: 15rem;
   }
 }

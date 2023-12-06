@@ -29,6 +29,21 @@
   padding: 0px !important;
 }
 
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: auto;
+  background-color: var(--sec-color);
+  border: 4px solid var(--fourth-color);
+  box-shadow: 24px;
+  padding: 4px;
+  border-radius: 30px;
+  animation: appearance 0.9s both;
+}
+
 #modal-description {
   text-align: justify !important;
   font-size: 1rem !important;
@@ -49,12 +64,14 @@
 .link-title {
   color: var(--fourth-color);
   font-size: 1.2rem;
+  text-align: center;
 }
 
 .link-href {
   display: flex;
   align-items: center;
   padding: 0.1rem;
+  min-width: 60px;
 }
 
 .git-eye-icon {
@@ -72,6 +89,20 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+/* Animation pour l'ouverture de la modale::::::::::::::::::::::::::::::::::: */
+
+@keyframes appearance {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Responsive:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
@@ -89,7 +120,7 @@
     color: var(--fourth-color);
     font-size: 1rem;
   }
-  .project-infos span {
+  .link-title {
     font-size: 1rem;
   }
 }
@@ -109,8 +140,9 @@
   .project-languages {
     color: var(--fourth-color);
     font-size: 0.9rem;
+    margin-left: 0.3rem;
   }
-  .project-infos span {
+  .link-title {
     font-size: 0.9rem;
   }
   .img-carousel {
@@ -124,5 +156,14 @@
   }
   .img-carousel {
     height: 7rem !important;
+  }
+}
+
+@media (max-width: 355px) {
+  .link-title {
+    font-size: 0.8rem;
+  }
+  .project-languages {
+    font-size: 0.8rem;
   }
 }

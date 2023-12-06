@@ -12,20 +12,6 @@ import Carousel from "../../Components/Carousel/Carousel";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import PreviewIcon from "@mui/icons-material/Preview";
 
-const style = {
-  position: "absolute",
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%, -50%)",
-  width: "50%",
-  // height: "30rem",
-  bgcolor: "var(--sec-color)",
-  border: "4px solid var(--fourth-color)",
-  boxShadow: 24,
-  p: 4,
-  borderRadius: "30px",
-};
-
 function Projects() {
   const [open, setOpen] = React.useState(false);
   const [selectedProjectId, setSelectedProjectId] = React.useState(null);
@@ -60,7 +46,7 @@ function Projects() {
             aria-labelledby="modal-modal-title"
             aria-describedby="modal-modal-description"
           >
-            <Box sx={style}>
+            <Box className="modal">
               {project && (
                 <Carousel slides={project.images} slidesId={project.id} />
               )}
