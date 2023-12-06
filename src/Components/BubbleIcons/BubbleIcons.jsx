@@ -9,7 +9,8 @@ function BubbleIcons() {
 
   return (
     <ul
-    // ref={parallax.ref}
+      className="ul-icon"
+      // ref={parallax.ref}
     >
       {bubblesData.map((bubble) => (
         <li className="icons" key={bubble.id}>

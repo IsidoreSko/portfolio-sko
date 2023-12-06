@@ -8,7 +8,7 @@
         "/Images/projectPics/argentBank3.webp"
       ],
       "title": "ArgentBank",
-      "description": "ARGENTBANK est un Site de banque en ligne. Intégration du site et plus particulièrement de la partie d'Authentification des utilisateurs. Puis modélisationsdes des différentes routes API pour l'implémentattion futrur concernant les manipulations sur les transactions, en suivant les directives de Swagger.",
+      "description": "ARGENTBANK est un Site de banque en ligne. Intégration du site et plus particulièrement de la partie d'Authentification des utilisateurs. Puis modélisation des différentes routes API pour l'implémentattion futrur concernant les manipulations sur les transactions, en suivant les directives de Swagger.",
       "link" : "https://github.com/IsidoreSko/ArgentBank-frontend",
       "languages": ["React", "Redux", "Swagger"]
     },
@@ -65,8 +65,7 @@
       "link" : "https://github.com/IsidoreSko/ninacarducci.github.io",
       "site" : " https://isidoresko.github.io/ninacarducci.github.io/",
       "languages": ["HTML", "CSS", "JavaScript"]   
-    },
-   
+    }, 
     {
       "id": "6",
       "cover": "/Images/projectPics/printIt.webp",

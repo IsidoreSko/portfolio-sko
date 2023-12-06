@@ -2,10 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* width: 120px; */
-  /* height: 180px; */
-  width: 100px;
-  height: 100px;
+  height: 7rem;
 }
 
 .icons img {
@@ -20,15 +17,16 @@
   margin-top: 0.5rem;
 }
 
-ul {
-  /* width: 100%; */
-  /* height: 150px; */
+.ul-icon {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 /* Responsive:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
@@ -38,23 +36,39 @@ ul {
 
 @media (max-width: 950px) {
   .icons {
-    width: 100px;
-    height: 150px;
+    height: 6rem;
   }
   .name {
-    font-size: 2.5rem;
+    font-size: 1.9rem;
   }
 }
 
 @media (max-width: 769px) {
   .icons {
-    width: 70px;
-    height: 96px;
+    height: 5rem;
   }
   .name {
     font-size: 1.5rem;
   }
-  ul {
+  .ul-icon {
     justify-content: space-around;
+  }
+}
+
+@media (max-width: 550px) {
+  .icons {
+    height: 4rem;
+  }
+  .name {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 481px) {
+  .icons {
+    height: 3rem;
+  }
+  .name {
+    font-size: 0.8rem;
   }
 }
