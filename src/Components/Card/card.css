@@ -5,12 +5,12 @@
   width: 17rem;
 }
 
-.card img {
-  /* height: 11rem; */
-  height: 100%;
-  width: 100%;
-  /* width: 17rem; */
-}
+/* .card img { */
+/* height: 11rem; */
+/* height: 100%;
+  width: 100%; */
+/* width: 17rem; */
+/* } */
 
 .card:hover {
   -ms-transform: scale(1.2);
