@@ -14,12 +14,14 @@ export default function ContactForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    // Paramètres du modèle du formulaire:
     const templateParams = {
       from_name: name,
       from_email: email,
       message: message,
     };
 
+    // utilisation de la bibliothèque emailjs:
     emailjs
       .send(
         "service_m0ucmmq",
@@ -27,6 +29,8 @@ export default function ContactForm() {
         templateParams,
         "vpxND3Whh9p5bgq1a"
       )
+
+      // Promesses pour la gestion du résultat de l'envoi de l'e-mail:
       .then(
         (response) => {
           console.log(

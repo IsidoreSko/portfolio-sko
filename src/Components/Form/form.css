@@ -10,14 +10,6 @@
   justify-content: center;
 }
 
-.submit {
-  color: var(--sec-color) !important;
-  border: 1px solid var(--sec-color) !important;
-  color: var(--sec-color) !important;
-  font-size: 1.2rem !important;
-  font-weight: 300 !important;
-}
-
 .contact-title {
   display: flex;
   flex-direction: column;
@@ -39,43 +31,52 @@
   width: 12rem;
 }
 
-/* Styles pour le composant TextField */
+/* Au sujet du formulaire::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+/* Styles pour le composant TextField: */
 .TextField {
   margin-top: 2px;
-  color: var(--sec-color); /* Couleur du texte */
+  color: var(--sec-color);
   font-size: 1.2rem;
-  font-weight: 300; /* Poids de la police */
+  font-weight: 300;
 }
 
-/* Styles pour MuiInputLabel */
+/* Styles pour MuiInputLabel: */
 .TextField .MuiInputLabel-root {
-  color: var(--sec-color); /* Couleur de l'étiquette */
+  color: var(--sec-color);
 }
 
-/* Styles pour MuiInputLabel lorsqu'il est en focus */
+/* Styles pour MuiInputLabel lorsqu'il est en focus: */
 .TextField .Mui-focused .MuiInputLabel-root {
-  color: var(--sec-color); /* Couleur de l'étiquette en focus */
-  transform: translate(14px, -6px) scale(0.75); /* Animation de l'étiquette en focus */
+  color: var(--sec-color);
+  transform: translate(14px, -6px) scale(0.75);
 }
 
-/* Styles pour MuiOutlinedInput */
+/* Styles pour MuiOutlinedInput: */
 .TextField .MuiOutlinedInput-root {
-  /* Styles pour le fieldset à l'intérieur de MuiOutlinedInput */
+  /* Styles pour le fieldset à l'intérieur de MuiOutlinedInput: */
   & fieldset {
-    border-color: var(--sec-color); /* Couleur de la bordure */
+    border-color: var(--sec-color);
   }
 
-  /* Styles pour le fieldset lorsqu'il est survolé */
+  /* Styles pour le fieldset lorsqu'il est survolé: */
   &:hover fieldset {
-    border-color: var(
-      --third-color
-    ); /* Couleur de la bordure lorsqu'il est survolé */
+    border-color: var(--third-color);
   }
 
-  /* Styles pour le fieldset lorsqu'il est en focus */
+  /* Styles pour le fieldset lorsqu'il est en focus: */
   &.Mui-focused fieldset {
-    border: 1px solid var(--sec-color); /* Bordure solide lorsque l'input est en focus */
+    border: 1px solid var(--sec-color);
   }
+}
+
+/* Style pour le bouton d'envoi: */
+.submit {
+  color: var(--sec-color) !important;
+  border: 1px solid var(--sec-color) !important;
+  color: var(--sec-color) !important;
+  font-size: 1.2rem !important;
+  font-weight: 300 !important;
 }
 
 /* Animation:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
@@ -99,12 +100,6 @@
 }
 
 /* Responsive:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
-
-@media (max-width: 1025px) {
-}
-
-@media (max-width: 950px) {
-}
 
 @media (max-width: 769px) {
   .container-form {
