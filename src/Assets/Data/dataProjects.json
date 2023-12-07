@@ -12,19 +12,19 @@
       "link" : "https://github.com/IsidoreSko/ArgentBank-frontend",
       "languages": ["React", "Redux", "Swagger"]
     },
-    {
+{
       "id": "2",
-      "cover":"/Images/projectPics/ohMyFood2.webp",
-      "images": [
-        "/Images/projectPics/ohMyFood1.webp",
-        "/Images/projectPics/ohMyFood2.webp",
-        "/Images/projectPics/ohMyFood3.webp"
+      "cover": "/Images/projectPics/printIt.webp",
+      "images": [ 
+        "/Images/projectPics/printIt1.webp",
+        "/Images/projectPics/printIt2.webp",
+        "/Images/projectPics/printIt3.webp"     
       ],
-      "title": "Ohmyfood",
-      "description": "OHMYFOOD est un site répertoriant les menus de restaurants gastronomiques à Paris. Le site permet aux clients de composer leur propre menu et de réserver leur repas. Intégration du site en version “mobile first.",
-      "link" : "https://github.com/IsidoreSko/OhMyFood",
-      "site" : " https://isidoresko.github.io/OhMyFood/",
-      "languages": ["HTML", "CSS"]
+      "title": "Print-it",
+      "description": "Mordernisation d'un site web d'impression HTML5 / CSS3, en y incorporant un slider codé en JavaScript.",
+      "link" : "https://github.com/IsidoreSko/Print-it-JS",
+      "site" : "https://isidoresko.github.io/Print-it-JS/",
+      "languages": ["React", "JavaScript"]
     },
     {
       "id": "3",
@@ -66,20 +66,20 @@
       "site" : " https://isidoresko.github.io/ninacarducci.github.io/",
       "languages": ["HTML", "CSS", "JavaScript"]   
     }, 
-    {
+     {
       "id": "6",
-      "cover": "/Images/projectPics/printIt.webp",
-      "images": [ 
-        "/Images/projectPics/printIt1.webp",
-        "/Images/projectPics/printIt2.webp",
-        "/Images/projectPics/printIt3.webp"     
+      "cover":"/Images/projectPics/ohMyFood.webp",
+      "images": [
+        "/Images/projectPics/ohMyFood1.webp",
+        "/Images/projectPics/ohMyFood2.webp",
+        "/Images/projectPics/ohMyFood3.webp"
       ],
-      "title": "Print-it",
-      "description": "Mordernisation d'un site web d'impression HTML5 / CSS3, en y incorporant un slider codé en JavaScript.",
-      "link" : "https://github.com/IsidoreSko/Print-it-JS",
-      "site" : "https://isidoresko.github.io/Print-it-JS/",
-      "languages": ["React", "JavaScript"]
+      "title": "Ohmyfood",
+      "description": "OHMYFOOD est un site répertoriant les menus de restaurants gastronomiques à Paris. Le site permet aux clients de composer leur propre menu et de réserver leur repas. Intégration du site en version “mobile first.",
+      "link" : "https://github.com/IsidoreSko/OhMyFood",
+      "site" : " https://isidoresko.github.io/OhMyFood/",
+      "languages": ["HTML", "CSS"]
     }
   ]
 
-
+   
