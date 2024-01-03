@@ -10,7 +10,7 @@ function Banner() {
           <span>Olivier Shmoel Khan</span>
         </div>
       </div>
-      <h1 className="">Développeur Web</h1>
+      <h1 className="">Développeur Web front-end</h1>
       <div className="blink-banner">
         <span>Scroll</span>
         <ArrowDownwardIcon className="arrow" />
