@@ -1,38 +1,38 @@
 [
-    {
-      "id": "a1",
-      "image": "/Images/icons/redux.webp",
-      "description": "Redux icon",
-      "name": "Redux"
-    },
-    {
-      "id": "a2",
-      "image": "/Images/icons/react.webp",
-      "description": "React icon",
-      "name": "React"
-    },
-    {
-      "id": "a3",
-      "image": "/Images/icons/css.webp",
-      "description": "Css icon",
-      "name": "CSS"
-    },
-    {
-      "id": "a4",
-      "image": "/Images/icons/html.webp",
-      "description": "Html icon",
-      "name" :"HTML"
-    },
-    {
-      "id": "a5",
-      "image": "/Images/icons/js.webp",
-      "description": "Js icon",
-      "name": "JavaScript"
-    },
-    {
-      "id": "a6",
-      "image": "/Images/icons/sass2.webp",
-      "description": "Sass icon",
-      "name": "Sass"
-    }
-  ]
+  {
+    "id": "a1",
+    "image": "/Images/icons/zustand.webp",
+    "description": "Zustand icon",
+    "name": "Zustand"
+  },
+  {
+    "id": "a2",
+    "image": "/Images/icons/react.webp",
+    "description": "React icon",
+    "name": "React"
+  },
+  {
+    "id": "a3",
+    "image": "/Images/icons/css.webp",
+    "description": "Css icon",
+    "name": "CSS"
+  },
+  {
+    "id": "a4",
+    "image": "/Images/icons/html.webp",
+    "description": "Html icon",
+    "name": "HTML"
+  },
+  {
+    "id": "a5",
+    "image": "/Images/icons/js.webp",
+    "description": "Js icon",
+    "name": "JavaScript"
+  },
+  {
+    "id": "a6",
+    "image": "/Images/icons/tailwindcss.webp",
+    "description": "TailwindCSS icon",
+    "name": "TailwindCSS"
+  }
+]

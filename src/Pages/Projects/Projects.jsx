@@ -59,7 +59,7 @@ function Projects() {
                 {project && project.description}
               </Typography>
               <div className="project-infos">
-                {project && (
+                {project && project.link ? (
                   <a
                     href={project.link}
                     target="_blank"
@@ -69,7 +69,7 @@ function Projects() {
                     <GitHubIcon className="git-eye-icon" />
                     <span className="link-title">Voir le code</span>
                   </a>
-                )}
+                ) : null}
                 {project && project.site ? (
                   <a
                     href={project.site}

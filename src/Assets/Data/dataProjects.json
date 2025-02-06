@@ -1,85 +1,92 @@
 [
-    {
-      "id": "1",
-      "cover":"/Images/projectPics/argentBank.webp",
-      "images": [
-        "/Images/projectPics/argentBank1.webp",
-        "/Images/projectPics/argentBank2.webp",
-        "/Images/projectPics/argentBank3.webp"
-      ],
-      "title": "ArgentBank",
-      "description": "ARGENTBANK est un Site de banque en ligne. Intégration du site et plus particulièrement de la partie d'Authentification des utilisateurs. Puis modélisation des différentes routes API pour l'implémentattion futrur concernant les manipulations sur les transactions, en suivant les directives de Swagger.",
-      "link" : "https://github.com/IsidoreSko/ArgentBank-frontend",
-      "languages": ["React", "Redux", "Swagger"]
-    },
-{
-      "id": "2",
-      "cover": "/Images/projectPics/printIt.webp",
-      "images": [ 
-        "/Images/projectPics/printIt1.webp",
-        "/Images/projectPics/printIt2.webp",
-        "/Images/projectPics/printIt3.webp"     
-      ],
-      "title": "Print-it",
-      "description": "Mordernisation d'un site web d'impression HTML5 / CSS3, en y incorporant un slider codé en JavaScript.",
-      "link" : "https://github.com/IsidoreSko/Print-it-JS",
-      "site" : "https://isidoresko.github.io/Print-it-JS/",
-      "languages": ["React", "JavaScript"]
-    },
-    {
-      "id": "3",
-      "cover":"/Images/projectPics/kasa.webp",
-      "images": [ 
-        "/Images/projectPics/kasa1.webp",       
-        "/Images/projectPics/kasa2.webp",
-        "/Images/projectPics/kasa3.webp"
-      ],
-      "title": "Kasa",
-      "description": "KASA est une plateforme permettant de rechercher et de réserver des hébergements entre particuliers. Intégrationdu site et utilisation d'éléments interactifs (carousel, volets déroulants).",
-      "link" : "https://github.com/IsidoreSko/Kasa",
-      "languages": ["SASS", "React", "JavaScript"]     
-    },
-    {
-      "id": "4",
-      "cover":"/Images/projectPics/booki.webp",
-      "images": [
-        "/Images/projectPics/booki1.webp",
-        "/Images/projectPics/booki2.webp"
-      ],
-      "title": "Booki",
-      "description": " BOOKI est un site permettant aux usagers de trouver des hébergements et des activités dans la ville de leur choix.Intégration de l'interface du site à partir des maquettes desktop, tablette et mobile.",
-      "link" : "https://github.com/IsidoreSko/Booki",
-      "site" : "https://isidoresko.github.io/Booki/",
-      "languages": ["HTML", "CSS"] 
-    },
-    {
-      "id": "5",
-      "cover":"/Images/projectPics/nina.webp",
-      "images": [
-        "/Images/projectPics/nina1.webp",
-        "/Images/projectPics/nina2.webp",
-        "/Images/projectPics/nina3.webp"
-      ],
-      "title": "Nina Carducci",
-      "description": "Amélioration du référencement du site de Nina Carducci, photographe professionnel, en augmentant sa visibilité auprès des clients potentiels, ainsi qu'en améliorant les performances du site. Utilisation de LightHouse outil d'audit SEO.",
-      "link" : "https://github.com/IsidoreSko/ninacarducci.github.io",
-      "site" : " https://isidoresko.github.io/ninacarducci.github.io/",
-      "languages": ["HTML", "CSS", "JavaScript"]   
-    }, 
-     {
-      "id": "6",
-      "cover":"/Images/projectPics/ohMyFoodA.webp",
-      "images": [
-        "/Images/projectPics/ohMyFood1.webp",
-        "/Images/projectPics/ohMyFood2.webp",
-        "/Images/projectPics/ohMyFood3.webp"
-      ],
-      "title": "Ohmyfood",
-      "description": "OHMYFOOD est un site répertoriant les menus de restaurants gastronomiques à Paris. Le site permet aux clients de composer leur propre menu et de réserver leur repas. Intégration du site en version “mobile first.",
-      "link" : "https://github.com/IsidoreSko/OhMyFood",
-      "site" : " https://isidoresko.github.io/OhMyFood/",
-      "languages": ["HTML", "CSS"]
-    }
-  ]
-
-   
+  {
+    "id": "7",
+    "cover": "/Images/projectPics/cv.webp",
+    "images": ["/Images/projectPics/cv1.webp", "/Images/projectPics/cv2.webp"],
+    "title": "CV simple et facile",
+    "description": "CV simple et facile est un site web permettant de créer un CV en ligne simplement et rapidement en remplissant un formulaire. Il est possible de choisir un modèle et les couleurs. L'intégration du site est en version “mobile first”.",
+    "site": "https://www.cvsimpleetfacile.com/",
+    "languages": ["HTML", "React", "JavaScript", "TailwindCSS"]
+  },
+  {
+    "id": "1",
+    "cover": "/Images/projectPics/argentBank.webp",
+    "images": [
+      "/Images/projectPics/argentBank1.webp",
+      "/Images/projectPics/argentBank2.webp",
+      "/Images/projectPics/argentBank3.webp"
+    ],
+    "title": "ArgentBank",
+    "description": "ARGENTBANK est un Site de banque en ligne. Intégration du site et plus particulièrement de la partie d'Authentification des utilisateurs. Puis modélisation des différentes routes API pour l'implémentattion futrur concernant les manipulations sur les transactions, en suivant les directives de Swagger.",
+    "link": "https://github.com/IsidoreSko/ArgentBank-frontend",
+    "languages": ["React", "Redux", "Swagger"]
+  },
+  {
+    "id": "2",
+    "cover": "/Images/projectPics/printIt.webp",
+    "images": [
+      "/Images/projectPics/printIt1.webp",
+      "/Images/projectPics/printIt2.webp",
+      "/Images/projectPics/printIt3.webp"
+    ],
+    "title": "Print-it",
+    "description": "Mordernisation d'un site web d'impression HTML5 / CSS3, en y incorporant un slider codé en JavaScript.",
+    "link": "https://github.com/IsidoreSko/Print-it-JS",
+    "site": "https://isidoresko.github.io/Print-it-JS/",
+    "languages": ["React", "JavaScript"]
+  },
+  {
+    "id": "3",
+    "cover": "/Images/projectPics/kasa.webp",
+    "images": [
+      "/Images/projectPics/kasa1.webp",
+      "/Images/projectPics/kasa2.webp",
+      "/Images/projectPics/kasa3.webp"
+    ],
+    "title": "Kasa",
+    "description": "KASA est une plateforme permettant de rechercher et de réserver des hébergements entre particuliers. Intégrationdu site et utilisation d'éléments interactifs (carousel, volets déroulants).",
+    "link": "https://github.com/IsidoreSko/Kasa",
+    "languages": ["SASS", "React", "JavaScript"]
+  },
+  {
+    "id": "4",
+    "cover": "/Images/projectPics/booki.webp",
+    "images": [
+      "/Images/projectPics/booki1.webp",
+      "/Images/projectPics/booki2.webp"
+    ],
+    "title": "Booki",
+    "description": " BOOKI est un site permettant aux usagers de trouver des hébergements et des activités dans la ville de leur choix.Intégration de l'interface du site à partir des maquettes desktop, tablette et mobile.",
+    "link": "https://github.com/IsidoreSko/Booki",
+    "site": "https://isidoresko.github.io/Booki/",
+    "languages": ["HTML", "CSS"]
+  },
+  {
+    "id": "5",
+    "cover": "/Images/projectPics/nina.webp",
+    "images": [
+      "/Images/projectPics/nina1.webp",
+      "/Images/projectPics/nina2.webp",
+      "/Images/projectPics/nina3.webp"
+    ],
+    "title": "Nina Carducci",
+    "description": "Amélioration du référencement du site de Nina Carducci, photographe professionnel, en augmentant sa visibilité auprès des clients potentiels, ainsi qu'en améliorant les performances du site. Utilisation de LightHouse outil d'audit SEO.",
+    "link": "https://github.com/IsidoreSko/ninacarducci.github.io",
+    "site": " https://isidoresko.github.io/ninacarducci.github.io/",
+    "languages": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "id": "6",
+    "cover": "/Images/projectPics/ohMyFoodA.webp",
+    "images": [
+      "/Images/projectPics/ohMyFood1.webp",
+      "/Images/projectPics/ohMyFood2.webp",
+      "/Images/projectPics/ohMyFood3.webp"
+    ],
+    "title": "Ohmyfood",
+    "description": "OHMYFOOD est un site répertoriant les menus de restaurants gastronomiques à Paris. Le site permet aux clients de composer leur propre menu et de réserver leur repas. Intégration du site en version “mobile first.",
+    "link": "https://github.com/IsidoreSko/OhMyFood",
+    "site": " https://isidoresko.github.io/OhMyFood/",
+    "languages": ["HTML", "CSS"]
+  }
+]
