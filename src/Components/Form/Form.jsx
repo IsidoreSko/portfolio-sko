@@ -27,10 +27,10 @@ export default function ContactForm() {
         "service_m0ucmmq",
         "template_qbg62go",
         templateParams,
-        "vpxND3Whh9p5bgq1a"
+        "zq4gW1GPUXequj43y"
       )
 
-      // Promesses pour la gestion du résultat de l'envoi de l'e-mail:
+      // Promesses pour la gestion du résultat de l'envoi de vpxND3Whh9p5bgq1a l'e-mail:
       .then(
         (response) => {
           console.log(
