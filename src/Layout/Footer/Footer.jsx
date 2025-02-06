@@ -7,7 +7,7 @@ function Footer() {
     <div className="footer-container">
       <CopyrightIcon />
       <span className="copyright">
-        Olivier Shmoel Khan ; Tous droits résevés
+        Olivier Shmoel Khan ; Tous droits réservés
       </span>
     </div>
   );
